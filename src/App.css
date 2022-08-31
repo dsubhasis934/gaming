@@ -32,7 +32,57 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+
+.home {
+  background-image: url(background.png);
+  background-position: center;
+  height: 105vh;
+  overflow: hidden;
+  left: 0;
+  bottom: 0;
+}
+
+.body_text {
+  color: #7CB701;
+  font-weight: 700;
+  font-family: poppins, sans-serif;
+  transform: translate(336px, 319px);
+  font-size: 54px;
+  text-shadow: 1px 11px black;
+}
+
+.about {
+  font-weight: 500;
+}
+
+#myVideo {
+  object-fit: cover;
+  opacity: 0.8;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  z-index: -1;
+}
+
+.container {
+  transform: translate(279px, 272px);
+}
+
+h1.about-header {
+  margin-left: 205px;
+  font-size: 50px;
+  color: #7CB701;
+  font-weight: 700;
+  text-shadow: 1px 11px black;
+}
+
+p.about-body {
+  font-size: 28px;
+  color: #7CB701;
+  font-weight: 500;
 }
